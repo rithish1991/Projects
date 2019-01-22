@@ -1,0 +1,164 @@
+.dashboardmenu
+{
+background-color:#2199e8;
+color: white;
+
+
+
+}
+
+.dashboardmenu>h4:hover { 
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 40%;
+    height:50%;
+    text-align: center;
+
+}
+
+.menuDash
+{
+
+background-color: #2199e8;
+
+}
+.nav_bar li:hover
+{
+    background-color: #3399ff;
+    color: #FFF;
+    text-shadow: 0px 2px 3px #555;
+}
+.user_sec ul li:hover
+{
+    color: #fff;
+}
+
+@media screen and (min-width: 600px)
+{
+    #main
+    {
+        width: 100%;
+        display: table;
+        margin: auto;
+        background-color: #FFF;
+    }
+    .header
+    {
+        width: 98%;
+        padding: 0% 1% 0% 0%;
+        display: table;
+        background-color: gainsboro;
+        /*margin: auto;*/
+        box-shadow: 0px 3px 0px ghostwhite;
+;
+    }
+    .logo_container
+    {
+        width: 20%;
+        float: left;
+        display: table;
+    }
+    .logo_container img
+    {
+        min-width: 50%;
+        height: auto;
+        display: block;
+    }
+    .proj_title
+    {
+        width: 60%;
+        display: table;
+        float: left;
+    }
+    .proj_title h1
+    {
+        margin: 0px;
+        text-align: center;
+        color: #555555;
+        padding: 1% 0% 0% 0%; 
+        /*  text-shadow: 0 1px 0 #ccc,
+           0 2px 0 #c9c9c9,
+            0 3px 0 #bbb, 
+            0 4px 0 #b9b9b9, 
+            0 5px 0 #aaa, 
+            0 6px 1px rgba(0,0,0,.1),
+             0 0 5px rgba(0,0,0,.1), 
+             0 1px 3px rgba(0,0,0,.3),
+              0 5px 10px rgba(0,0,0,.2), 
+              0 3px 11px rgba(0,0,0,0.25),
+               0 10px 5px rgba(0,0,0,.2), 
+               0 13px 6px rgba(0,0,0,.15);*/
+  
+    }
+    .user_details
+    {
+        width: 18%;
+        padding: 1% 0% 0% 0%;
+        display: table;
+        float: left;
+        position: relative;
+    }
+    .user_name
+    {
+        width: 200px;
+        margin: 0px;
+        padding: 2% 0% 2% 10%;
+        color: #000;
+        font-weight: bold;
+        float: left;
+        text-align: center;
+    }
+    .user_icon
+    {
+        width: 25px;
+        height: auto;
+        padding: 2% 0%;
+        cursor: pointer;
+    }
+    .user_sec
+    {
+        display: none;
+        position: absolute;
+        width: 35%;
+        top: 100%;
+        right: -10%;
+        background-color: #33ccff;
+        padding: 2% 0% 2% 5%;
+        border-radius: 4%;
+        opacity: 0.9;
+    }
+    .user_sec ul
+    {
+        margin: 0px;
+        display: inline-block;
+        padding: 0px;
+    }
+    .user_sec ul li
+    {
+        list-style-type: none;
+        cursor: pointer;
+        padding: 10% 5%;
+        font-size: 17px;
+    }
+    .navigation
+    {
+        display: inline-block;
+        width: 97%;
+        padding: 1% 0% 1% 2%;
+        background-color: ghostwhite;
+        box-shadow: 0px 3px 0px gainsboro;
+    }
+    .nav_bar
+    {
+        float: right;
+        margin: 0px;
+    }
+    .nav_bar li
+    {
+        display: inline;
+        padding: 20px 30px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

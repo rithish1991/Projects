@@ -1,0 +1,44 @@
+
+
+<div id="main" *ngIf="commonProp.userSession">
+    <div class="header">
+        <div class="logo_container">
+            <img src="images/logo_company.gif"/>
+        </div>
+        <div class="proj_title">
+            <h1>PURCHASEAPP</h1>
+        </div>
+        <div class="user_details">
+            <p class="user_name">{{commonProp.userName}}</p>
+            <img src="images/user_icon.png" class="user_icon"  (click)="iconclick()"/>
+            <div class="user_sec">
+                <ul>
+                    <li>Logout</li>
+                    <li>Details</li>
+                    <li>Section</li>
+                </ul>
+            </div>
+        </div>
+        <!--<div class="user_sec">
+            <ul>
+                <li>Logout</li>
+                <li>Details</li>
+                <li>Section</li>
+            </ul>
+        </div>-->
+    </div>
+    <div class="navigation">
+        <ul class="nav_bar">
+            <li>Tab1</li>
+            <li>Tab2</li>
+            <li>Tab3</li>
+            <li>Tab4</li>
+        </ul>
+    </div>
+</div>
+
+<router-outlet>
+
+
+</router-outlet>
+

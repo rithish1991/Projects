@@ -1,0 +1,101 @@
+
+body
+{
+	font-family: Calibri;
+	background-color: #f4f6f9;
+}
+.row
+{
+	width: 100%;
+	display: table;
+	padding: 2% 2%;
+}
+#main .sbtBtn:hover
+{
+	background-color:  #14a4ff;
+}
+.login_container .textBox:focus
+{
+	border: 1px solid #2196f3;
+	background-color: seashell;
+}
+@media screen and (min-width: 600px)
+{
+	#main
+	{
+		display: table;
+		width: 100%;
+		background-color: #f4f6f9;
+		background-image: url('../images/background1.jpg');
+		background-repeat: repeat-y;
+		background-size: cover;
+	}
+	#logo
+	{
+		margin: 5% 20%;
+		width: 365px;
+		height: auto;
+	}
+	#logo img
+	{
+		width: 75%;
+		height: auto;
+
+	}
+	.center
+	{
+		text-align: center;
+	}
+	#login{
+		display: table;
+		width: 400px;
+		background-color: #FFF; 
+		margin: 10% auto;
+    	box-shadow: 2px 4px 15px 4px rgba(0,0,0,0.6);
+		opacity: 0.9;
+	}
+	.login_container
+	{
+		width: 80%;
+		padding:5% 10% 10% 10%;
+		margin: auto;
+	}
+	.login_container h2
+	{
+		margin: 0px;
+		font-size: 30px;
+		text-align: center;
+		color: rgba(0,0,0,0.6);
+		padding: 0% 0% 2% 0%;
+		font-style: normal
+	}
+	.login_container label
+	{
+		width: 200px;
+		display: inline-block;
+		font-family: SFS, Arial, sans-serif;
+		font-size: 13px;
+		margin: 0px 0px 8px 5px;
+		color: dimgrey;
+	}
+	.login_container .textBox{
+		width: 300px;
+		padding: 10px 5px;
+		margin-left: 2px;
+		border: 2px solid #14a4ff;
+		font-size: 18px;
+		transition: all 0.1s;
+		border-radius: 4px;
+	}
+	.sbtBtn
+	{
+		width: 315px;
+		background-color: #1f89ce;
+		padding: 15px 15px;
+		color: #FFF;
+		border-radius: 8px;
+		font-weight: bold;
+		cursor: pointer;
+		font-size: 16px;
+	}
+}
